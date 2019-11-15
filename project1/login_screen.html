@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Aleksandar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">
+                    Project based on learning modal!
+                </h1>
+                <p class="text-center"><a href="#" data-target="#login-modal" data-toggle="modal" class="btn btn-warning btn-lg" >Log in</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="login-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img id="logo" class="img-thumbnail" src="/images/am.jpeg" alt="logo" >   
+                </div>
+                <div id="div-form">
+                    <form>
+                        <div class="modal-body">
+                            <div>
+                                Type your email and password:
+                            </div>
+                            <input class="form-control" name="email" type="email" placeholder="Email">
+                            <input class="form-control" name="pass" type="password" placeholder="Password">
+                            <div class="checkbox">
+                             <label>
+                                <input type="checkbox">&nbsp; Remember me
+                             </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <button class="btn btn-primary btn-lg btn-block f">Log in</button>
+                                </div>
+                                
+                                <div class="col-xs-6">
+                                        <button class="btn btn-primary btn-lg btn-block f">Sign up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
